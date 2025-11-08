@@ -26,7 +26,7 @@ ENV MTG_CONFIG=/etc/mtg
 RUN mkdir -p $MTG_CONFIG
 
 # 环境变量默认值（可通过 docker run -e 覆盖）
-ENV MTG_PORT=443 \
+ENV MTG_PORT=8443 \
     MTG_DOMAIN=www.cloudflare.com \
     MTG_CONTAINER=mtg \
     MTG_IMAGENAME=nineseconds/mtg:latest
